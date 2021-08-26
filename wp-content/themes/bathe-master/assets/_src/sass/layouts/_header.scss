@@ -1,0 +1,35 @@
+@use '../global' as *;
+
+
+*:focus {
+	border-color: inherit !important;
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+html {
+	font-size: 62.5%; // 1.6rem = 16px, 2.0rem = 20px, etc...
+	scroll-behavior: smooth;
+	@media (max-width: 767px) {
+		font-size: 60%; // Reducimos el tamaño en móvil.
+	}
+}
+
+body {
+	font-family: 'GeneralSans-Regular';
+	font-size: 1.4rem;
+	line-height: 2rem;
+	margin: 0;
+}
+
+.header {
+	border-bottom: 10px solid $light-gray;
+}
+
+
+
+.title-page {
+	color: 000;
+	font-family: 'Fraunces', serif;
+	padding: 20px;
+}

@@ -1,0 +1,96 @@
+@use '../global' as *;
+
+.footer {
+	background: #f8f8f8;
+	padding-bottom: 200px;
+	padding-top: 200px;
+
+	hr {
+		margin-bottom: 25px;
+	}
+
+	.block-footer-container {
+		display: flex;
+		justify-content: space-around;
+		@media (max-width: 1024px) {
+			flex-wrap: wrap;
+		}
+
+		.block-footer {
+			padding: 20px;
+			width: 100%;
+		}
+
+		&.extra {
+			display: flex;
+			justify-content: space-around;
+			@media (max-width: 768px) {
+				display: block;
+				padding: 20px;
+			}
+		}
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			list-style: none;
+			margin-bottom: 15px;
+			text-decoration: none;
+
+			&:marker {
+				display: none;
+			}
+		}
+
+		&.list {
+			&.list-inline {
+				li {
+					display: inline-block;
+					margin-right: 3rem;
+					@media (max-width: 768px) {
+						display: block;
+					}
+				}
+
+			}
+		}
+
+		&.two-columns {
+			column-count: 2;
+			column-gap: 2rem;
+			grid-column-gap: 2rem;
+		}		
+	} 
+
+	h3 {
+		font-size: 1.8rem;
+		margin-bottom: 30px;
+	}
+
+	p,
+	li {
+		color: #212121;
+		font-size: 1.4rem;
+	}
+
+	a {
+		color: #595959;
+		text-decoration: none;
+	}
+}
+
+
+.me-10 {
+	margin-right: 10rem;
+}
+
+.mb-10 {
+	margin-bottom: 10rem;
+}
+
+.justify-content-space-around {
+	justify-content: space-around;
+}
