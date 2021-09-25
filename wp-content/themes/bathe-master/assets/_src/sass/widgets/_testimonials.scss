@@ -1,0 +1,110 @@
+.block-testimonial {        
+	.elementor-widget-testimonial-carousel .elementor-testimonial__image img {
+		border-radius: 0;
+		height: auto;
+		width: 445px;
+	}
+
+	.elementor-testimonial--align-left {
+		.elementor-testimonial {
+			align-items: center;
+
+			&__text {
+				font-size: 4rem;
+				font-style: normal;
+				line-height: 5.4rem;
+				margin-bottom: 35px;
+			}
+    
+			&__title,
+			&__name {
+				display: inline-block;
+				font-size: 1.6rem;
+				font-style: normal;
+				width: auto;
+			}
+    
+			&__name {
+				font-weight: bold;
+				margin: 0 10px;
+			}
+
+			&__cite {
+				flex-direction: initial !important;
+				padding-left: 70px;
+				position: relative;
+
+				&::after {
+					background: #bebebe;
+					content: '';
+					display: block;
+					height: 1px;
+					left: 0;
+					position: absolute;
+					top: 10px;
+					width: 70px;
+				}
+			}
+		}
+
+	
+	}
+
+	.elementor-swiper-button.elementor-swiper-button-next,
+	.elementor-swiper-button.elementor-swiper-button-prev {
+		align-items: center;
+		border: 1px solid #bebebe;
+		border-radius: 50%;
+		display: flex;
+		height: 60px;
+		justify-content: center;
+		left: auto;
+		line-height: 60px;
+		right: 0;
+		text-align: center;
+		top: 0;
+		width: 60px;
+
+		&:hover {
+			border: 1px solid #b82c2d;
+		}
+	}
+
+	.elementor-swiper-button.elementor-swiper-button-prev {
+		right: 110px;
+	}
+
+	.swiper-pagination-fraction {
+		color: #000;
+		height: 20px;
+		left: auto;
+		right: 72px;
+		top: -10px;
+		width: auto;
+	}
+
+	.eicon-chevron-left::before,
+	.eicon-chevron-right::before {
+		color: #212121;
+	}
+
+
+
+	.title-description {
+		.elementor-widget:not(:last-child) {
+			margin-bottom: 0;
+		}     
+
+		h2 {
+			color: #121212;
+			font-size: 4rem;
+			margin-bottom: 50px;
+		}
+
+		strong {
+			color: #7e7e7e;
+			font-size: 1.2rem;
+			text-transform: uppercase;
+		}
+	}
+}

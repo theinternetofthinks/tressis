@@ -1,0 +1,29 @@
+.block-specialist {
+	img {
+		max-height: 160px;
+		width: auto;
+	}
+
+	a.elementor-button {
+		background: none;
+		border: 0;
+		border-radius: 0;
+		color: #212121 !important;
+		display: inline-block;
+		font-size: 1.8rem !important;
+		font-weight: 400;
+		padding: 0;
+	}  
+
+	.content {
+		display: flex;
+		flex-direction: row;
+		font-size: 1.8rem;
+		line-height: 25px;
+
+		.elementor-widget-wrap {
+			flex-direction: column;
+			justify-content: space-between;
+		}
+	}
+}

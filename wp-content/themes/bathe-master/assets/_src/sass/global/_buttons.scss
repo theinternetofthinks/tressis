@@ -1,0 +1,58 @@
+.btn {
+	&.btn-primary {
+		background: #3823b4;
+		border: 0;
+		color: #fff;
+		display: block;
+		font-size: 1.8rem;
+		padding: 20px 25px;
+		width: auto !important;
+
+		a {
+			color: #fff !important;
+			font-size: 1.8rem !important;
+		}
+
+		&::before {
+			display: none;
+    
+		}
+	}
+
+	&.btn-text {
+		background: none;
+		border: 0;
+		color: #3823b4;
+		display: block;
+		font-size: 1.6rem;
+		margin: auto;
+		padding: 0;
+
+		.elementor-button {
+			background: none;
+			border: 0;
+			padding: 0;	
+		}
+
+		.elementor-button-text {
+			color: #3823b4;
+			display: block;
+			font-size: 1.6rem;
+			padding: 0;		
+		}
+	}
+    
+}
+
+.alm-load-more-btn.more {
+	background: none;
+	border: 1px solid #bebebe;
+	color: #212121;
+	display: block;
+	font-size: 1.8rem;
+	margin: auto;
+	min-width: 250px;
+	padding: 20px 25px;
+}
+
+

@@ -1,0 +1,45 @@
+.planificador-form {
+	.form-group {
+		&.planificador {
+			border-bottom: 1px solid rgba(190, 190, 190, 0.5);
+			display: block;
+			margin: auto;
+			margin-bottom: 90px;
+			max-width: 250px;
+			text-align: center;
+	
+			label {
+				color: #595959;
+				float: right;
+				margin-top: -40px;
+				position: relative;
+			}
+	
+			input[type='number'],
+			input[type='text'] {
+				border: 0;
+				color: #212121;
+				font-size: 4rem;
+				font-weight: 2000;
+				padding-right: 70px;
+			}
+	
+		}
+	
+		
+	
+	}
+
+	.btn.btn-primary {
+		opacity: 0;
+		
+		pointer-events: none;
+		transition: all 0.4s linear;
+
+		&.visible {
+			opacity: 1;
+			pointer-events: all;
+		}		
+	}
+
+}

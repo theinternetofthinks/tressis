@@ -1,0 +1,47 @@
+.block-video {
+	.elementor-widget-heading+.elementor-widget-text-editor {
+		color: #595959;
+		font-size: 1.4rem;
+		max-width: 100%;
+
+		strong {
+			color: #212121;
+			font-size: 1.6rem;           
+		}
+	}   
+
+	h2 {
+		font-size: 4.2rem;
+	}
+
+	.elementor-social-icon svg {
+		width: 16px;
+	}
+
+	.share-options {
+		.elementor-social-icons-wrapper {
+			align-items: center;
+			display: flex;
+			justify-content: space-around;
+		}
+
+		.elementor-container {
+			display: flex;
+			justify-content: center;
+
+			.elementor-icon.elementor-social-icon,
+			.elementor-social-icon {
+				background: none;
+				height: 16px;
+				margin: 0 5px;
+				width: 16px;
+			}
+
+			p {
+				color: #bebebe;
+				font-size: 1.4rem;
+			}
+		
+		}
+	}
+}

@@ -1,0 +1,26 @@
+.block-interest {
+	h2 {
+		font-size: 3.2rem;
+		margin-bottom: 40px;
+	}
+}
+
+.block-inline-buttons .elementor-widget-wrap {
+	display: flex;
+	margin-left: -15px;
+
+	.elementor-element {
+		width: auto;
+	}
+
+	a.elementor-button {
+		background: none;
+		border: 0;
+		border-radius: 0;
+		color: #3823b4 !important;
+		font-size: 2rem !important;
+		padding: 0 10px;
+	}
+}
+
+

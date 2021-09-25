@@ -1,0 +1,32 @@
+.block-list-circle,
+.block-list-downloads,
+.block-list-resources {
+	.elementor-icon-list-item {
+		align-items: flex-start;
+		margin-bottom: 15px !important;
+	}
+
+	.elementor-icon-list-icon i {
+		font-size: 6px !important;
+		margin-top: 4px;
+	}
+}
+
+.block-list-downloads {
+	.elementor-icon-list-item {
+		align-items: center;
+		border-bottom: 1px solid#eee;
+		display: flex;
+		justify-content: space-between !important;
+		padding-bottom: 15px !important;
+
+		.elementor-icon-list-icon {
+			order: 2;
+		}
+
+		.elementor-icon-list-text {
+			order: 1;
+		}
+	}
+ 
+}

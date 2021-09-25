@@ -1,0 +1,87 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	/* display: none; <- Crashes Chrome on hover */
+	appearance: none;
+	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+	appearance: textfield; /* Firefox */
+}
+
+.block-form {
+
+	@media (min-width: 1199px) {
+		max-width: 350px !important;
+	}
+
+	label {
+		color: #212121;
+		font-size: 1.4rem;
+		margin-bottom: 8px;
+	}
+
+	textarea {
+		height: 104px;
+		resize: none;
+	}
+
+	.wpcf7-form-control,
+	.form-control {
+		border: 1px solid #bebebe;
+		border-radius: 4px;
+		font-size: 1.4rem;
+		height: 59px;
+		padding: 0 10px;
+		width: 100%;
+	}
+
+	.wpcf7-list-item {
+		margin: 0;
+		padding: 0;
+	}
+
+	.wpcf7-form-control.wpcf7-acceptance {
+		border: 0;
+	}
+
+	.form-group {
+		margin-bottom: 50px;
+	}
+
+	a.cta {
+		color: #3823b4 !important;
+		display: inline-block;
+		margin-top: -30px;
+		text-align: right;
+		width: 100%;
+	}
+
+	.submit-btn {
+		background: #3823b4;
+		border: 0;
+		border-radius: 4px;
+		color: #fff;
+		display: block;
+		font-size: 1.8rem;
+		padding: 20px 25px;;
+	}
+}
+
+.block-text-form {
+
+	@media (min-width: 1199px) {
+		padding-left: 55px;
+		padding-right: 155px;
+	}
+
+	.elementor-heading-title {
+		font-size: 4.8rem;
+
+	}
+
+	.elementor-widget-text-editor {
+		font-size: 1.8rem;
+		line-height: 22px;
+	}
+}

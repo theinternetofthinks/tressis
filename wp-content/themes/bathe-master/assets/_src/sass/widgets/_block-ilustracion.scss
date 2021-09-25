@@ -1,0 +1,15 @@
+.block-ilustracion {
+	img {
+		height: auto !important;
+		max-width: 470px !important;
+	}
+
+	.content {
+		font-size: 2rem;
+		line-height: 27px;
+
+		.elementor-widget-wrap {
+			max-width: 500px;
+		}
+	}
+}

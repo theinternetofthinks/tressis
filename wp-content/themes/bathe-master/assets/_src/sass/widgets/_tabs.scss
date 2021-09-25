@@ -1,0 +1,30 @@
+.elementor-tabs-content-wrapper,
+.elementor-tab-content,
+.elementor-tab-title {
+	border: 0 !important;
+}
+
+.elementor-tab-title {
+	color: #3823b4;
+
+	&.elementor-active {
+		color: #212121;
+	}
+
+	&::before,
+	&::after {
+		display: none !important;
+	}
+}
+
+
+.elementor-tab-title a {
+	font-size: 1.4rem;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 0;
+}
+
+.elementor-tab-content {
+	padding: 0;
+}

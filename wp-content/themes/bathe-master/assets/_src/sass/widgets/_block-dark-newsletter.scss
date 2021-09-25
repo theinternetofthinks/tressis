@@ -1,0 +1,41 @@
+.block-dark-newsletter {
+	h2 {
+		display: block;
+		font-size: 3.2rem;
+		margin: auto;
+		margin-bottom: 60px;
+		max-width: 460px;
+	}
+
+	.elementor-element {
+		width: auto;
+	}
+
+	a.elementor-button {
+		background: none;
+		border: 0;
+		border-radius: 0;
+		color: #fff !important;
+		display: inline-block;
+		font-size: 1.6rem !important;
+		padding: 0 10px;
+
+		.elementor-button-text {
+			&::after {
+				background-image: url("data:image/svg+xml,%3Csvg width='9' height='15' viewBox='0 0 9 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.42975 0.738114C2.03703 0.333942 1.38807 0.333943 0.995354 0.738115L0.676383 1.06639C0.299607 1.45415 0.299271 2.07117 0.675624 2.45935L5.56275 7.5L0.675625 12.5407C0.299271 12.9288 0.299607 13.5458 0.676384 13.9336L0.995354 14.2619C1.38807 14.6661 2.03703 14.6661 2.42975 14.2619L8.32288 8.19687C8.69995 7.8088 8.69995 7.1912 8.32288 6.80313L2.42975 0.738114Z' fill='white'/%3E%3C/svg%3E%0A");
+				background-repeat: no-repeat;
+				background-size: contain;
+				content: '';
+				display: inline-block;
+				height: 20px;
+				margin-left: 15px;
+				vertical-align: middle;
+				width: 20px;
+				width: 20px;
+			}  
+		}
+
+
+
+	}   
+}

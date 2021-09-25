@@ -1,0 +1,21 @@
+.htmega-table-style .htb-table tbody tr {
+	background: none;
+
+	td {
+		border-bottom: 1px solid #bebebe !important;
+		color: #595959;
+		font-family: 'GeneralSans-Regular' !important;
+	}
+}
+
+.htmega-table-style .htb-table thead {
+	background: none;
+
+	tr th {
+		border-bottom: 1px solid #bebebe !important;
+		color: #121212 !important;
+		font-family: 'GeneralSans-Regular' !important;
+		font-weight: 600;
+		text-transform: none !important;
+	}
+}
